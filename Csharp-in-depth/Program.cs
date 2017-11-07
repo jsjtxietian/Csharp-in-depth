@@ -10,6 +10,7 @@ namespace Csharp_in_depth
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
