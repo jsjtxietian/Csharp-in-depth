@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 namespace Csharp_in_depth
 {
     //P29 45的代码
-    class Delegate29
+    class Chap2
     {
+        #region P29
         delegate void StringProcessor(string input);
         class Person
         {
@@ -32,7 +33,6 @@ namespace Csharp_in_depth
             }
         }
 
-        //P29
         public static void Sample()
         {
             Person jon = new Person("jon");
@@ -45,7 +45,11 @@ namespace Csharp_in_depth
             tomsVoice.Invoke("Hello,Daddy!");
             background("An airplane files past.");
         }
+        #endregion
 
+        #region P45
+
+        //delegate in C#2
         public static void DelagateIn2()
         {
             EventHandler handler;
@@ -76,8 +80,7 @@ namespace Csharp_in_depth
         {
             Console.WriteLine("Handled by HandleDemoEvent");
         }
-
-
+#endregion
 
     }
 }
