@@ -10,7 +10,10 @@ namespace Csharp_in_depth
     {
         static void Main(string[] args)
         {
+            //Delegate29.Sample();
+            Delegate29.DelagateIn2();
 
+            Console.ReadKey();
         }
     }
 }
